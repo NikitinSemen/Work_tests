@@ -15,7 +15,6 @@ class TestMyslice(unittest.TestCase):
         self.assertEqual(my_slice([1, 2, 3, 4], 1, 3), [2, 3])
         self.assertEqual(my_slice([1, 2, 3], 1), [2, 3])
         self.assertEqual(my_slice([0]), [0])
-        self.assertEqual(my_slice([0]), [0])
         self.assertEqual(my_slice([]), [])
 
 
